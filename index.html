@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airquality</title>
+    <link rel="stylesheet" href="style/airquality.css">
+    <script src="script/airquality.js" defer></script>
+</head>
+<body>
+    <div class="body">
+    <h1>Air Quality checkup</h1>
+        <div class="test">
+            <div class="circle" id="meter-container"></div>
+            <div class=" card" id="textname"></div>
+            <input type="text" placeholder="Enter City name"  id="city">
+            <button id="btnf" tabindex="0">Check</button>
+        </div>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>AQI</th>
+                    <th>Air Pollution level </th>
+                </tr>
+                <tr>
+                    <td>0-50</td>
+                    <td>Good</td>
+                </tr>
+                <tr>
+                    <td>51-100</td>
+                    <td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>101-150</td>
+                    <td>Unhealthy for Sensitive Groups</td>
+                </tr>
+                <tr>
+                    <td>151-200</td>
+                    <td>Unhealthy</td>
+                </tr>
+                <tr>
+                    <td>201-300</td>
+                    <td>Very Unhealthy</td>
+                </tr>
+                <tr>
+                    <td>300+</td>
+                    <td>Hazardous</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+        <br>
+        <div class="attributes">
+            <h4 style="text-align: center;">Attribution</h4>
+            <ul>
+                <a href="http://worldweather.wmo.int">
+                    <li>World Meteorological Organization - surface synoptic observations (WMO-SYNOP)</li>
+                </a>
+                <a href="https://in.usembassy.gov/embassy-consulates/new-delhi/air-quality-data/">
+                    <li>U.S. Embassy and Consulates' Air Quality Monitor in India</li>
+                </a>
+                <a href="https://waqi.info/">
+                    <li>World Air Quality Index Project</li>
+                </a>
+            </ul>
+        </div>
+      </body>
+</html>

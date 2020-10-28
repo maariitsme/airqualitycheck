@@ -1,0 +1,136 @@
+body{
+    background-color: lightgoldenrodyellow;
+
+}
+.body{
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    overflow-x: hidden;
+}
+h1{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.test{
+    width: 100%;
+    display: flex;
+    /* height: 50vh; */
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin: 5px auto 10px auto;
+}
+.meter{
+    display: flex;
+    height: 140px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+
+.test>input{
+    display: block;
+    margin: 30px auto 0 auto;
+    height: 30px;
+
+}
+.test>button{
+    display: block;
+    height: 30px;
+    margin: 20px auto;
+    width: 100px;
+}
+table{
+    width: 95vw;
+    max-width: 600px;
+    border: 1px solid white;
+    /* border-collapse: separate; */
+    /* position: fixed; */
+    box-shadow: 0px 3px  3px 5px rgba(110, 108, 108,0.7);
+}
+
+td{
+    height: 30px;
+    padding-left: 15px;
+    color: #f0f0f0;
+    transition: all .5s;
+    overflow: hidden;
+    font-weight: 300;
+    /* position: relative; */
+}
+
+tr{
+    background-color: rgb(6, 240, 169);
+}
+tr:nth-child(2){
+    background-color: green;
+}
+tr:nth-child(3){
+    background-color: yellow;
+}
+tr:nth-child(3)>td{
+    color: black;
+}
+tr:nth-child(4){
+    background-color: orange;
+}
+tr:nth-child(5){
+    background-color: rgb(231, 43, 74);
+}
+tr:nth-child(6){
+    background-color: rgb(179, 17, 179);
+}
+tr:nth-child(7){
+    background-color: rgb(95, 9, 45);
+    
+}
+td:hover{
+    /* height: 40px; */
+    /* padding-left: 11px; */
+    transform: scale(1.05);
+}
+
+input::-webkit-input-placeholder{
+    opacity: 0.6;
+}
+input:focus{
+    background-color: rgb(173, 113, 230);
+}
+#textname{
+    width: 200px;
+    /* height: auto; */
+    margin-top: 10px;
+    background-color: rgb(230, 252, 169);
+    border-radius: 10px;
+    box-shadow: 0px  0px 12px rgba(110, 108, 108,0.7);
+    padding: 10px;
+    text-align: center;
+    line-height: 2rem;
+    /* display: none; */
+    visibility: hidden;
+    transition: all .5s linear;
+}
+.attributes{
+    /* width: 80%; */
+    /* background-color: aqua; */
+    float: right;
+    
+}
+.attributes a{
+    text-decoration: none;
+    color: black;
+
+}
